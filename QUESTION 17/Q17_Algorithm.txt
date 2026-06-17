@@ -1,0 +1,9 @@
+QUESTION 17
+
+Algorithm:
+1. Start
+2. Input N
+3. Check power of 2
+4. Display result
+5. Stop
+

@@ -1,0 +1,9 @@
+QUESTION 18
+
+Algorithm:
+1. Start
+2. Input binary number
+3. Convert to decimal
+4. Display result
+5. Stop
+

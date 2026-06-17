@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT S
+IF '@' EXISTS IN S THEN OUTPUT 'Contains @'
+ELSE OUTPUT 'Does not contain @'
+ENDIF
+END

@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT N
+IF N MOD 2=0 THEN OUTPUT 'Even'
+ELSE OUTPUT 'Odd'
+ENDIF
+END

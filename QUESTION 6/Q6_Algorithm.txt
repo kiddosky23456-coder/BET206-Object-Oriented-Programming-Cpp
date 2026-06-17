@@ -1,0 +1,9 @@
+
+
+Algorithm:
+1. Start
+2. Input character C
+3. Check if uppercase
+4. Display result
+5. Stop
+

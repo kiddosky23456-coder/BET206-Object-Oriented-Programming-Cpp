@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT A,B
+IF A=B THEN OUTPUT 'Equal'
+ELSE OUTPUT 'Not Equal'
+ENDIF
+END

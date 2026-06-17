@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT A,B
+IF A>B THEN OUTPUT 'First value is greater'
+ELSE OUTPUT 'Second value is greater'
+ENDIF
+END

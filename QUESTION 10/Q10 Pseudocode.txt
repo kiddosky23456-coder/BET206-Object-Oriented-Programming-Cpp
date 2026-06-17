@@ -1,0 +1,6 @@
+Pseudocode:
+BEGIN
+INPUT A,B
+Larger←(A>B)?A:B
+OUTPUT Larger
+END

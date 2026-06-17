@@ -1,0 +1,7 @@
+Algorithm:
+1. Start
+2. Input A and B
+3. Swap using XOR
+4. Display values
+5. Stop
+

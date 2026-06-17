@@ -1,0 +1,8 @@
+Pseudocode:
+BEGIN
+INPUT A,B
+A←A XOR B
+B←A XOR B
+A←A XOR B
+OUTPUT A,B
+END

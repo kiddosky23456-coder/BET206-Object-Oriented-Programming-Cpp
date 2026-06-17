@@ -1,0 +1,8 @@
+
+Algorithm:
+1. Start
+2. Input radius R
+3. Calculate Area = π × R²
+4. Display Area
+5. Stop
+

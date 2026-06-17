@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT N
+IF (N MOD 2≠0) AND (N MOD 3=0) THEN OUTPUT 'True'
+ELSE OUTPUT 'False'
+ENDIF
+END

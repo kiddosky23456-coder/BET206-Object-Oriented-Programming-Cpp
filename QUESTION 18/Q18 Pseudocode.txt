@@ -1,0 +1,6 @@
+Pseudocode:
+BEGIN
+INPUT Binary
+Decimal←CONVERT(Binary TO Decimal)
+OUTPUT Decimal
+END

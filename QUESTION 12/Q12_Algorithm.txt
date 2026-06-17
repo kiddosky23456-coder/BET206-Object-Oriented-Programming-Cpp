@@ -1,0 +1,9 @@
+
+
+Algorithm:
+1. Start
+2. Input N
+3. Check odd and divisible by 3
+4. Display result
+5. Stop
+

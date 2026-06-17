@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT C
+IF C>='A' AND C<='Z' THEN OUTPUT 'Uppercase'
+ELSE OUTPUT 'Not Uppercase'
+ENDIF
+END

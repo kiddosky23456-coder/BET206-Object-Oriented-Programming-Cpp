@@ -1,0 +1,8 @@
+QUESTION 15
+
+Algorithm:
+1. Start
+2. Input A and B
+3. Use conditional operator
+4. Display larger value
+5. Stop

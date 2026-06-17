@@ -1,0 +1,6 @@
+Pseudocode:
+BEGIN
+INPUT R
+Area←3.142*R*R
+OUTPUT Area
+END

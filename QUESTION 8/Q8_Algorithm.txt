@@ -1,0 +1,9 @@
+
+
+Algorithm:
+1. Start
+2. Input N
+3. Check N mod 2
+4. Display Odd or Even
+5. Stop
+

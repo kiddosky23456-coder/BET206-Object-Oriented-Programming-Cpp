@@ -1,0 +1,8 @@
+
+Algorithm:
+1. Start
+2. Input A and B
+3. Calculate Sum, Difference, Product and Quotient
+4. Display results
+5. Stop
+

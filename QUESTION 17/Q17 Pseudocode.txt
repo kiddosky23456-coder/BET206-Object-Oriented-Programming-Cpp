@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT N
+IF N>0 AND (N AND (N-1))=0 THEN OUTPUT 'Power of 2'
+ELSE OUTPUT 'Not Power of 2'
+ENDIF
+END

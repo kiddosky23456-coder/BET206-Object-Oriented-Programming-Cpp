@@ -1,0 +1,7 @@
+Pseudocode:
+BEGIN
+INPUT S
+IF S='Hello' THEN OUTPUT 'Hello'
+ELSE OUTPUT 'Goodbye'
+ENDIF
+END

@@ -1,0 +1,9 @@
+Pseudocode:
+BEGIN
+INPUT A,B
+Sum←A+B
+Difference←A-B
+Product←A*B
+Quotient←A/B
+OUTPUT results
+END

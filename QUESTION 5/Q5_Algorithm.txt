@@ -1,0 +1,9 @@
+QUESTION 5
+
+Algorithm:
+1. Start
+2. Input A and B
+3. Compare values
+4. Display greater value
+5. Stop
+
