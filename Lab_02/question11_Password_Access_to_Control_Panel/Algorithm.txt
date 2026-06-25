@@ -1,0 +1,11 @@
+​Algorithm
+​Start.
+​Declare an integer variable password.
+​Prompt the user to enter the password access code.
+​Read the user input into password.
+​While password != 2080:
+​Prompt the user to try again with a clear access denied note.
+​Read the new input into password.
+​Once the loop finishes (because password == 2080), display "Access granted to control panel."
+​End.
+​

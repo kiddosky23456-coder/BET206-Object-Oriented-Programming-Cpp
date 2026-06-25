@@ -1,0 +1,16 @@
+Algorithm
+​Start.
+​Initialize variables totalTemperature = 0.0 and validCount = 0.
+​Declare a variable temp.
+​Set up a for loop executing exactly 10 iterations:
+​Prompt user and read temp.
+​If temp is less than 0:
+​Print a message that it is invalid and skipping.
+​Execute a continue statement to jump over subsequent step logic straight into the next loop cycle.
+​Accumulate temp into totalTemperature.
+​Increment validCount by 1.
+​After the loop completes, verify if validCount > 0:
+​Calculate \text{average} = \frac{\text{totalTemperature}}{\text{validCount}}.
+​Display the average temperature value.
+​Else, indicate no valid readings were registered.
+​End.

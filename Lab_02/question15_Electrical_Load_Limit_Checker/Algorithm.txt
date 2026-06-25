@@ -1,0 +1,11 @@
+​Algorithm
+​Start.
+​Initialize a variable totalLoad = 0.0.
+​Declare a variable appliancePower.
+​Run a while loop evaluated with the condition totalLoad <= 3000.0:
+​Prompt the user to enter the power rating of the appliance.
+​Read input into appliancePower.
+​Add appliancePower to totalLoad.
+​Once the loop condition breaks (meaning totalLoad > 3000.0), display the warning: "Load limit exceeded. Do not add more appliances."
+​Display the final aggregated value of totalLoad with units in Watts (W).
+​End.

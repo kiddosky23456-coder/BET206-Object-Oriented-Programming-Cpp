@@ -1,0 +1,10 @@
+Algorithm
+​Start.
+​Initialize counters safeCount = 0 and unsafeCount = 0.
+​Declare a variable currentReading.
+​Use a loop that iterates 8 times:
+​Prompt and read currentReading.
+​If currentReading is less than or equal to 10.0, increment safeCount by 1.
+​Otherwise, increment unsafeCount by 1.
+​Display both safeCount and unsafeCount.
+​End.

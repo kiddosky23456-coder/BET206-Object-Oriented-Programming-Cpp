@@ -1,0 +1,15 @@
+
+​Pseudocode
+BEGIN
+    NUMBER totalLoad = 0.0
+    NUMBER appliancePower
+    
+    WHILE totalLoad <= 3000.0 DO
+        OUTPUT "Enter appliance power rating (W): "
+        INPUT appliancePower
+        totalLoad = totalLoad + appliancePower
+    ENDWHILE
+    
+    OUTPUT "Load limit exceeded. Do not add more appliances."
+    OUTPUT "Final total load: ", totalLoad, " W"
+END

@@ -1,0 +1,15 @@
+
+​Pseudocode
+BEGIN
+    NUMBER voltage
+    OUTPUT "Enter initial battery voltage (V): "
+    INPUT voltage
+    
+    WHILE voltage >= 12.0 DO
+        OUTPUT "Voltage level acceptable."
+        OUTPUT "Enter next battery voltage reading (V): "
+        INPUT voltage
+    ENDWHILE
+    
+    OUTPUT "Battery voltage low. Recharge required."
+END

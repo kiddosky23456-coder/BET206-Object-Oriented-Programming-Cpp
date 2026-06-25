@@ -1,0 +1,12 @@
+Pseudocode
+BEGIN
+    NUMBER gpa
+    OUTPUT "Enter student GPA: "
+    INPUT gpa
+    
+    IF gpa >= 3.5 THEN
+        OUTPUT "Eligible for engineering scholarship."
+    ELSE
+        OUTPUT "Not eligible for engineering scholarship."
+    ENDIF
+END

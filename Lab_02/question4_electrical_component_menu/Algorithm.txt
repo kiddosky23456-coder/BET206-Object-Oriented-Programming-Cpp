@@ -1,0 +1,13 @@
+​Algorithm
+​Start.
+​Display a list of options (1 to 5) mapping to Resistor, Capacitor, Diode, Transistor, and LED.
+​Declare an integer variable choice.
+​Accept user selection into choice.
+​Evaluate choice using a switch block:
+​Case 1: Display Resistor description.
+​Case 2: Display Capacitor description.
+​Case 3: Display Diode description.
+​Case 4: Display Transistor description.
+​Case 5: Display LED description.
+​Default: Display "Invalid selection".
+​End.

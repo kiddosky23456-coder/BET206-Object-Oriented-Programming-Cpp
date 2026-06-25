@@ -1,0 +1,14 @@
+​Pseudocode
+BEGIN
+    NUMBER totalResistance = 0.0
+    NUMBER resistorValue
+    INTEGER i
+    
+    FOR i FROM 1 TO 5 STEP 1 DO
+        OUTPUT "Enter value for resistor ", i, " (Ohms): "
+        INPUT resistorValue
+        totalResistance = totalResistance + resistorValue
+    ENDFOR
+    
+    OUTPUT "Total Series Resistance = ", totalResistance, " Ohms"
+END

@@ -1,0 +1,44 @@
+
+​Pseudocode
+BEGIN
+    INTEGER choice
+    NUMBER voltage, current, power, time, result
+    
+    DO
+        OUTPUT "1. Calculate Power\n2. Calculate Resistance\n3. Calculate Energy\n4. Exit"
+        OUTPUT "Enter your choice: "
+        INPUT choice
+        
+        SWITCH choice DO
+            CASE 1:
+                OUTPUT "Enter Voltage (V): "
+                INPUT voltage
+                OUTPUT "Enter Current (A): "
+                INPUT current
+                result = voltage * current
+                OUTPUT "Power = ", result, " W"
+            CASE 2:
+                OUTPUT "Enter Voltage (V): "
+                INPUT voltage
+                OUTPUT "Enter Current (A): "
+                INPUT current
+                IF current != 0 THEN
+                    result = voltage / current
+                    OUTPUT "Resistance = ", result, " Ohms"
+                ELSE
+                    OUTPUT "Error: Current cannot be zero."
+                ENDIF
+            CASE 3:
+                OUTPUT "Enter Power (W): "
+                INPUT power
+                OUTPUT "Enter Time (s): "
+                INPUT time
+                result = power * time
+                OUTPUT "Energy = ", result, " J"
+            CASE 4:
+                OUTPUT "Exiting calculator..."
+            DEFAULT:
+                OUTPUT "Invalid option. Try again."
+        ENDSWITCH
+    WHILE choice != 4
+END

@@ -1,0 +1,14 @@
+​Pseudocode
+BEGIN
+    NUMBER ratedCurrent, measuredCurrent
+    OUTPUT "Enter rated current of circuit breaker (A): "
+    INPUT ratedCurrent
+    OUTPUT "Enter measured current in circuit (A): "
+    INPUT measuredCurrent
+    
+    IF measuredCurrent > ratedCurrent THEN
+        OUTPUT "Overload detected. Circuit breaker should trip."
+    ELSE
+        OUTPUT "Current is within safe limit."
+    ENDIF
+END

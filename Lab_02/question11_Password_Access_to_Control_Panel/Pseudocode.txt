@@ -1,0 +1,13 @@
+Pseudocode
+BEGIN
+    INTEGER password
+    OUTPUT "Enter control panel password: "
+    INPUT password
+    
+    WHILE password != 2080 DO
+        OUTPUT "Incorrect password. Try again: "
+        INPUT password
+    ENDWHILE
+    
+    OUTPUT "Access granted to control panel."
+END

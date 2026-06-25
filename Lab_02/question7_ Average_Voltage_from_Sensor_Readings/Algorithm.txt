@@ -1,0 +1,10 @@
+Algorithm
+​Start.
+​Declare variables totalVoltage = 0.0, voltageReading, and averageVoltage.
+​Use a loop that runs 10 times:
+​Prompt the user to enter a voltage reading.
+​Read the input into voltageReading.
+​Add voltageReading to totalVoltage.
+​Calculate averageVoltage = totalVoltage / 10.
+​Display averageVoltage with the unit "V".
+​End.

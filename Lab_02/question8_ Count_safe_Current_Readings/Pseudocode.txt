@@ -1,0 +1,21 @@
+​Pseudocode
+BEGIN
+    INTEGER safeCount = 0
+    INTEGER unsafeCount = 0
+    NUMBER currentReading
+    INTEGER i
+    
+    FOR i FROM 1 TO 8 STEP 1 DO
+        OUTPUT "Enter current reading ", i, " (A): "
+        INPUT currentReading
+        
+        IF currentReading <= 10.0 THEN
+            safeCount = safeCount + 1
+        ELSE
+            unsafeCount = unsafeCount + 1
+        ENDIF
+    ENDFOR
+    
+    OUTPUT "Number of safe readings: ", safeCount
+    OUTPUT "Number of unsafe readings: ", unsafeCount
+END

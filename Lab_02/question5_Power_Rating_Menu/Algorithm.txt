@@ -1,0 +1,10 @@
+Algorithm
+​Start.
+​Display the calculation options: (1) Calculate DC Power, (2) Calculate Resistance, (3) Calculate Energy Consumption.
+​Accept the user selection into choice.
+​Evaluate choice using a switch block:
+​Case 1: Prompt for voltage and current. Calculate \text{Power} = \text{Voltage} \times \text{Current}. Display result in Watts (W).
+​Case 2: Prompt for voltage and current. Calculate \text{Resistance} = \frac{\text{Voltage}}{\text{Current}}. Display result in Ohms (\Omega).
+​Case 3: Prompt for power and time. Calculate \text{Energy} = \text{Power} \times \text{Time}. Display result in Joules (J) or Watt-hours (Wh).
+​Default: Display "Invalid selection".
+​End.

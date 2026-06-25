@@ -1,0 +1,9 @@
+Algorithm
+​Start.
+​Declare a variable current.
+​Prompt the user to enter the first current reading and read it.
+​Execute a while loop condition check: while current <= 10.0:
+​Display "Current is safe."
+​Prompt for and read the next current reading.
+​If the loop breaks (meaning current > 10.0), display "Overcurrent detected. Monitoring stopped."
+​End.

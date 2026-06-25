@@ -1,0 +1,16 @@
+Pseudocode
+BEGIN
+    INTEGER choice
+    OUTPUT "1. Resistor\n2. Capacitor\n3. Diode\n4. Transistor\n5. LED"
+    OUTPUT "Enter your choice (1-5): "
+    INPUT choice
+    
+    SWITCH choice DO
+        CASE 1: OUTPUT "Resistor: Used to limit current in a circuit."
+        CASE 2: OUTPUT "Capacitor: Used to store electrical energy in an electric field."
+        CASE 3: OUTPUT "Diode: Allows current to flow in one direction only."
+        CASE 4: OUTPUT "Transistor: Used to amplify or switch electrical signals."
+        CASE 5: OUTPUT "LED: Emits light when an electric current flows through it."
+        DEFAULT: OUTPUT "Invalid selection"
+    ENDSWITCH
+END

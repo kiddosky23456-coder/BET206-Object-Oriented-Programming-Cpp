@@ -1,0 +1,13 @@
+Algorithm
+Start.
+Declare a variable voltage as a floating-point number.
+Prompt the user to enter a voltage reading.
+Read the input value into voltage.
+Check conditions sequentially:
+If voltage is less than 0, output "Invalid voltage reading".
+Else if voltage is between 0 and 50 (inclusive), output "Low voltage".
+Else if voltage is between 51 and 240 (inclusive), output "Normal voltage".
+Else if voltage is between 241 and 415 (inclusive), output "High voltage".
+Else (greater than 415), output "Dangerous voltage".
+End.
+

@@ -1,0 +1,14 @@
+​Pseudocode
+BEGIN
+    NUMBER current
+    OUTPUT "Enter current reading (A): "
+    INPUT current
+    
+    WHILE current <= 10.0 DO
+        OUTPUT "Current reading is safe."
+        OUTPUT "Enter next current reading (A): "
+        INPUT current
+    ENDWHILE
+    
+    OUTPUT "Overcurrent detected. Monitoring stopped."
+END

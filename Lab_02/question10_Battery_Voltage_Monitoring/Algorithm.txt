@@ -1,0 +1,9 @@
+​Algorithm
+​Start.
+​Declare a variable voltage.
+​Prompt the user to enter the initial battery voltage level.
+​While voltage >= 12.0:
+​Display a status showing that voltage is normal/acceptable.
+​Prompt for the next battery voltage reading.
+​If the loop exits because voltage < 12.0, display "Battery voltage low. Recharge required."
+​End.

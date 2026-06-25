@@ -1,0 +1,14 @@
+Algorithm
+​Start.
+​Initialize a choice variable.
+​Open a do...while loop block:
+​Display the 4-option menu: (1) Power, (2) Resistance, (3) Energy, (4) Exit.
+​Accept user selection into choice.
+​Pass choice into a switch structure:
+​Case 1: Input Voltage (V) and Current (I). Calculate \text{Power} = V \times I. Display result in Watts (W).
+​Case 2: Input Voltage (V) and Current (I). Check if I \neq 0, then calculate \text{Resistance} = \frac{V}{I}. Display result in Ohms (\Omega).
+​Case 3: Input Power (P) and Time (t). Calculate \text{Energy} = P \times t. Display result in Joules (J).
+​Case 4: Display an exit message.
+​Default: Display an invalid option error message.
+​Evaluate loop condition: Repeat the entire loop block while choice != 4.
+​End.

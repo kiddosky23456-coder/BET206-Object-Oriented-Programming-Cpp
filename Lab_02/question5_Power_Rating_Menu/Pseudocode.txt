@@ -1,0 +1,34 @@
+Pseudocode
+BEGIN
+    INTEGER choice
+    NUMBER v, i, p, t, result
+    OUTPUT "1. Calculate DC Power\n2. Calculate Resistance using Ohm's Law\n3. Calculate Energy Consumption"
+    OUTPUT "Enter option (1-3): "
+    INPUT choice
+    
+    SWITCH choice DO
+        CASE 1:
+            OUTPUT "Enter Voltage (V): "
+            INPUT v
+            OUTPUT "Enter Current (A): "
+            INPUT i
+            result = v * i
+            OUTPUT "Power = ", result, " W"
+        CASE 2:
+            OUTPUT "Enter Voltage (V): "
+            INPUT v
+            OUTPUT "Enter Current (A): "
+            INPUT i
+            result = v / i
+            OUTPUT "Resistance = ", result, " Ohms"
+        CASE 3:
+            OUTPUT "Enter Power (W): "
+            INPUT p
+            OUTPUT "Enter Time (s): "
+            INPUT t
+            result = p * t
+            OUTPUT "Energy = ", result, " J"
+        DEFAULT:
+            OUTPUT "Invalid selection"
+    ENDSWITCH
+END

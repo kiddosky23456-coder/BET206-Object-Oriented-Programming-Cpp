@@ -1,0 +1,9 @@
+Algorithm
+​Start.
+​Declare variables ratedCurrent and measuredCurrent.
+INPUT ratedCurrent.
+​INPUT measuredCurrent.
+​Compare the two values:
+​If measuredCurrent is greater than ratedCurrent, display "Overload detected. Circuit breaker should trip."
+​Otherwise, display "Current is within safe limit."
+​End.

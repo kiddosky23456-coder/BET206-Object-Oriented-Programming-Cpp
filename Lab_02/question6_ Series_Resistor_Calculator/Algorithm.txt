@@ -1,0 +1,9 @@
+Algorithm
+​Start.
+​Declare variables totalResistance = 0.0 and resistorValue.
+​Use a loop that runs 5 times (from count = 1 to 5):
+​Prompt the user to enter the value for the current resistor.
+​Read the input value into resistorValue.
+​Add resistorValue to totalResistance.
+​Display the computed totalResistance along with the unit "Ohms".
+​End.

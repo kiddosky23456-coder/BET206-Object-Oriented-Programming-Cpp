@@ -1,0 +1,28 @@
+​Pseudocode
+BEGIN
+    NUMBER totalTemperature = 0.0
+    NUMBER temp
+    NUMBER average
+    INTEGER validCount = 0
+    INTEGER i
+    
+    FOR i FROM 1 TO 10 STEP 1 DO
+        OUTPUT "Enter temperature reading ", i, " (°C): "
+        INPUT temp
+        
+        IF temp < 0 THEN
+            OUTPUT "Invalid reading. Skipping..."
+            CONTINUE
+        ENDIF
+        
+        totalTemperature = totalTemperature + temp
+        validCount = validCount + 1
+    ENDFOR
+    
+    IF validCount > 0 THEN
+        average = totalTemperature / validCount
+        OUTPUT "Average of valid temperatures = ", average, " °C"
+    ELSE
+        OUTPUT "No valid readings were entered."
+    ENDIF
+END

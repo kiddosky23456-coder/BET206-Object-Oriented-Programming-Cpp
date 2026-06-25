@@ -1,0 +1,8 @@
+​Algorithm
+​Start.
+​Declare a variable gpa.
+​Prompt user to enter their GPA and read the input.
+​Check eligibility:
+​If gpa is greater than or equal to 3.5, display "Eligible for engineering scholarship."
+​Otherwise, display "Not eligible for engineering scholarship."
+​End.
